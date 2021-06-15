@@ -43,7 +43,6 @@ tm_shape(scpv) +
     tm_shape(grocery) +
     tm_dots(col = "blue")
 library(leaflet)
-install.packages("leaflet.extras")
 library(leaflet.extras)
 location <- read.csv("E:/E/location.csv", encoding = 'UTF-8')
 o <- leaflet(data = location)
